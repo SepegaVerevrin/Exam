@@ -1,0 +1,18 @@
+﻿<Page x:Class="Electric_trains_app.AddFlight"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Electric_trains_app"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddFlight">
+
+    <Grid Background="White">
+        <TextBox x:Name="Station_start_TB" HorizontalAlignment="Left" Height="23" Margin="332,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Count_cars_TB" HorizontalAlignment="Left" Height="23" Margin="332,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button  Content="Добавить" HorizontalAlignment="Left" Margin="309,319,0,0" VerticalAlignment="Top" Width="143" Height="34" Background="Red" Foreground="White" FontSize="20" BorderBrush="White" Click="Add"/>
+        <TextBox x:Name="type_train_id_TB" HorizontalAlignment="Left" Height="23" Margin="332,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Page>
